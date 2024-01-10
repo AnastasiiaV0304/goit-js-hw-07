@@ -1,0 +1,41 @@
+body {
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+}
+
+.login-form {
+  padding: 24px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+button {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  margin-top: 8px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
